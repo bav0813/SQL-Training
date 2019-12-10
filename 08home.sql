@@ -5,7 +5,10 @@
 проверочный скрипт на содержание вашего инсерта (5 баллов)*/
 
 
---DROP TABLE db_laba.dbo.books_abychkovsky CREATE TABLE db_laba.dbo.books_abychkovsky ( id int, author varchar(255), title varchar(255), publisher varchar(255), published_at date)
+--DROP TABLE db_laba.dbo.books_abychkovsky 
+CREATE TABLE db_laba.dbo.books_abychkovsky ( 
+ id int, author varchar(255), title varchar(255), publisher varchar(255), published_at date
+)
 
 INSERT INTO db_laba.dbo.books_abychkovsky 
 ( id, author, title, publisher,published_at)
